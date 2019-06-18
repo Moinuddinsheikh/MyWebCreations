@@ -1,0 +1,81 @@
+
+
+#
+color - style - switcher div h3 {
+		color: #2d2d2d;font-size:19px;margin:8px 3px 12px}# color - style - switcher {
+			background: #fff;box - shadow: 0 4 px 14 px rgba(0, 0, 0, .14);left: -145 px;position: fixed;top: 250 px;width: 150 px;z - index: 9999
+		}#
+		color - style - switcher div {
+			padding: 5 px 10 px
+		}#
+		color - style - switcher.bottom {
+			padding: 0
+		}#
+		color - style - switcher.bottom a.settings {
+			background - color: #fff;
+			box - shadow: 7 px 2 px 14 px 0 rgba(0, 0, 0, .14);
+			display: block;
+			height: 45 px;
+			position: absolute;
+			right: -45 px;
+			top: 0;
+			width: 45 px;
+			text - align: center
+		}#
+		color - style - switcher.bottom a i {
+			font - size: 30 px;
+			line - height: 45 px
+		}#
+		color - style - switcher select {
+			background: none repeat scroll 0 0# f6f6f6;border: 1 px solid# fff;line - height: 1;margin - bottom: 10 px;padding: 5 px 10 px;width: 150 px
+		}
+		ul.colors {
+			list - style: none outside none;
+			margin: 0 0 10 px;
+			overflow: hidden;
+			padding: 0
+		}
+		ul.colors li {
+			float: left;margin: 2 px
+		}
+		ul.colors li a {
+			cursor: pointer;display: block;height: 35 px;width: 35 px;border - radius: 0; - webkit - border - radius: 0
+		}
+		ul.colors li a.active {
+			position: relative
+		}
+		ul.colors li a.active: after {
+			color: #fff;content: "\f00c";font - family: fontawesome;font - size: 10 px;right: 12 px;position: absolute;top: 6 px
+		}
+		ul.colors li a.color1.active: after,
+		ul.colors li a.color8.active: after {
+			color: #fff
+		}
+		@media only screen and(max - width: 500 px) {#
+			color - style - switcher {
+				display: none
+			}
+		}
+		ul.colors.color1 {
+			background: #e91e63
+		}
+		ul.colors.color2 {
+			background: #03a9f4}ul.colors .color3{background:# 4 caf50
+		}
+		ul.colors.color4 {
+			background: #7c4dff}ul.colors .color5{background:# ffc107
+		}
+		ul.colors.color6 {
+			background: #d32f2f
+		}.settings.fa {
+			transform: rotate(30 deg); - webkit - transition: .2 s; - moz - transition: .2 s; - ms - transition: .2 s; - o - transition: .2 s;transition: .2 s;animation: gear 2 s infinite
+		}
+		@keyframes gear {
+			0 % {
+				transform: rotate(0 deg)
+			}
+			100 % {
+				transform: rotate(360 deg)
+			}
+		}
+
